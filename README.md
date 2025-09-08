@@ -2,6 +2,8 @@
 
 End-to-end, multi-agent pipeline that analyzes trends and input materials, generates Instagram-ready visuals and captions, evaluates quality, and prepares a final publishable package. The system is composed of multiple FastAPI microservices orchestrated by a Streamlit web UI.
 
+<img width="1907" height="904" alt="image" src="https://github.com/user-attachments/assets/35842fe8-e284-475f-b454-8f0227d1d2fc" />
+
 ### Key Capabilities
 - Trend analysis and hashtag suggestion
 - Visual/text analysis of uploaded materials
@@ -217,3 +219,4 @@ Add your preferred license here.
 
 
 #
+
