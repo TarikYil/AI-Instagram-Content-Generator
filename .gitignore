@@ -1,0 +1,71 @@
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter/Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Environment & secrets
+.env
+.env.*
+*.env
+token.pickle
+**/token.pickle
+credentials/
+**/credentials/*.json
+
+# Media & temp artifacts
+tmp/
+**/tmp/
+service_generation/tmp/
+service_upload/tmp/
+service_analysis/downloads/
+service_analysis/downloads/**
+service_generation/env
+service_trend/env
+service_upload/env
+service_upload/credentials
+# Docker
+*.pid
+*.seed
+**/.docker-cache/
+
+# OS specific
+ehthumbs.db
+Desktop.ini
+
+service_upload/service_upload.log
+**/*.mp4
+**/*.webm
+**/*.avi
+
+

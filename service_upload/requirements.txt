@@ -1,0 +1,23 @@
+# Service Upload Dependencies
+# FastAPI ve ilgili paketler
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Google Drive API
+google-api-python-client==2.108.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.2.0
+
+# Dosya işlemleri
+Pillow==10.1.0
+python-magic==0.4.27
+
+# Logging ve monitoring
+structlog==23.2.0
+
+# Utility
+python-dotenv==1.0.0
+aiofiles==23.2.1

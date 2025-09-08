@@ -1,0 +1,43 @@
+# Service Quality Dependencies - Text-to-Image Quality Metrics
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# HTTP requests for service integration
+httpx==0.25.2
+requests==2.31.0
+
+# CUDA 11.2 Compatible PyTorch
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+torchaudio==0.12.1
+-f https://download.pytorch.org/whl/cu113
+
+# Computer Vision & Image Quality Assessment
+opencv-python==4.8.1.78
+Pillow==10.0.1
+scikit-image==0.21.0
+numpy<2.0
+
+# Deep Learning for Quality Assessment
+transformers==4.30.2
+sentence-transformers==2.2.2
+
+# Quality Metrics Libraries
+lpips==0.1.4  # Learned Perceptual Image Patch Similarity
+pytorch-fid==0.3.0  # Fréchet Inception Distance
+
+# Statistical Analysis
+scipy==1.11.3
+matplotlib==3.7.2
+
+# Utility libraries
+python-dotenv==1.0.0
+aiofiles==23.2.1
+structlog==23.2.0
+
+# JSON processing
+jsonschema==4.19.2

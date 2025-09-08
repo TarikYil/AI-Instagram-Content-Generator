@@ -1,0 +1,21 @@
+# Service Generation - Core Dependencies
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# AI/ML - Stable Diffusion
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+-f https://download.pytorch.org/whl/cu113
+diffusers==0.15.1
+transformers==4.30.2
+safetensors==0.3.1
+huggingface_hub==0.14.1
+accelerate==0.18.0
+
+# Core Libraries
+numpy<2.0
+Pillow==10.0.1
+python-dotenv==1.0.0
