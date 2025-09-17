@@ -2,6 +2,7 @@
 fastapi==0.111.0
 uvicorn==0.30.1
 
+
 # Google API client (YouTube Data API v3 vs.)
 google-api-python-client==2.137.0
 google_auth_oauthlib
